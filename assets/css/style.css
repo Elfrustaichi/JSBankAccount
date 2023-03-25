@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#cash-operations {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#cash-operations input::-webkit-outer-spin-button,
+#cash-operations input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#cash-operations input {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#balance {
+  width: 400px;
+  height: 60px;
+  border: solid black 2px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: orange;
+}
+#balance p {
+  font-size: 50px;
+  color: black;
+}
+#balance h1 {
+  color: black;
+}
+
+.operations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+.operations #withdraw:hover button {
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.operations #deposit:hover button {
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.operations #deposit {
+  width: 400px;
+  height: 60px;
+  border: solid black 2px;
+  background-color: rgb(50, 228, 50);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.operations #deposit button {
+  width: 100px;
+  color: white;
+  font-weight: 900;
+  font-size: 17px;
+  background-color: rgb(50, 228, 50);
+  border: 0;
+}
+.operations #deposit form {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.operations #withdraw {
+  width: 400px;
+  height: 60px;
+  border: solid black 2px;
+  background-color: blue;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.operations #withdraw button {
+  width: 100px;
+  color: white;
+  background-color: blue;
+  font-size: 17px;
+  font-weight: 900;
+  border: 0;
+}
+.operations #withdraw form {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cash-payment {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#cash-payment .payments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#cash-payment .payments div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#cash-payment .payments .logo {
+  width: 200px;
+  height: 200px;
+}
+#cash-payment .payment-form {
+  margin-top: 30px;
+  background-image: url(../images/lawyer-payment-methods.png);
+  background-size: 500px 300px;
+  background-attachment: fixed;
+  width: 500px;
+  height: 300px;
+  border: solid blueviolet 2px;
+  border-radius: 100px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: none;
+}
+#cash-payment .payment-form p {
+  font-weight: 900;
+  font-size: 30px;
+}
+#cash-payment .payment-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#cash-payment .payment-form form button {
+  border-radius: 10px;
+  border-color: blue;
+  width: 50px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 20px;
+  background-color: greenyellow;
+  color: black;
+  font-weight: 600;
+}
+#cash-payment .payment-form form input {
+  border-color: blue;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+#history {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+#history .payment {
+  border-radius: 10px;
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  border: solid black 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  margin-top: 30px;
+}
+#history .payment p {
+  font-size: 30px;
+}
+#history .payment .method {
+  font-weight: 900;
+}
+#history .payment .payment-value {
+  color: red;
+}

@@ -1,0 +1,106 @@
+#cash-operations {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+#balance {
+  width: 400px;
+  height: 60px;
+  border: solid black 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: orange;
+  p {
+    font-size: 50px;
+    color: black;
+  }
+  h1 {
+    color: black;
+  }
+}
+.operations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+
+  #withdraw:hover {
+    button {
+      color: red;
+      transform: scale(1.1);
+    }
+  }
+  #deposit:hover {
+    button {
+      color: red;
+      transform: scale(1.1);
+    }
+  }
+  #deposit {
+    width: 400px;
+    height: 60px;
+    border: solid black 2px;
+
+    background-color: rgb(50, 228, 50);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    button {
+      width: 100px;
+      color: white;
+      font-weight: 900;
+      font-size: 17px;
+      background-color: rgb(50, 228, 50);
+      border: 0;
+    }
+    form {
+      width: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  #withdraw {
+    width: 400px;
+    height: 60px;
+    border: solid black 2px;
+
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    button {
+      width: 100px;
+      color: white;
+      background-color: blue;
+      font-size: 17px;
+      font-weight: 900;
+      border: 0;
+    }
+    form {
+      width: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
